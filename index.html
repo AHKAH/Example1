@@ -10,6 +10,9 @@
     <div id="temp">
 
     </div>
+    <div id="loc">
+
+    </div>
   </div>
   <br>
   <button type="button" onclick="GetWeatherInfo()">
@@ -31,6 +34,7 @@
     function ProcessJSON(json) {
       document.getElementById("city").innerHTML = json.city;
       document.getElementById("temp").innerHTML = json.temp;
+      document.getElementById("loc").innerHTML = json.loc;
     }
   </script>
 

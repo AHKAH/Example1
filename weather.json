@@ -1,5 +1,7 @@
 {
     "city":"toronto",
     "temp": "20",
-    "loc":"33,22"
+    "loc":"33,22",
+    "country": "Canada",
+    "code":"+1"
 }
